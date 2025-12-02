@@ -1,0 +1,15 @@
+/* Style the figure block */
+figure {
+    background-color: lightblue;
+    padding: 15px;
+    width: 320px;
+    border: 2px solid #333;
+}
+
+/* Style the figcaption block */
+figcaption {
+    background-color: lightgreen;
+    padding: 10px;
+    font-style: italic;
+    text-align: center;
+}
