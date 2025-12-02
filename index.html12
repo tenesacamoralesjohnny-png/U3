@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Div and Span Example</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    
+    <div id="container">
+        <h1>Welcome!</h1>
+        <p>This is a paragraph inside a <span class="highlight">span element</span></p>
+    </div>
+
+</body>
+</html>
