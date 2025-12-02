@@ -1,0 +1,21 @@
+/* Style for the main wrapper */
+#wrapper {
+    width: 70%;
+    margin: 0 auto;
+    background: #efefef;
+    padding: 20px;
+}
+
+/* Div box styling */
+.box {
+    background: #dcdcdc;
+    padding: 15px;
+    margin-bottom: 15px;
+    border: 1px solid #bbb;
+}
+
+/* Span highlight styling */
+.highlight {
+    color: red;
+    font-weight: bold;
+}
