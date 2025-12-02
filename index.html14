@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Div and Span Example</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+    <div id="wrapper">
+        <h1>Div and Span Demonstration</h1>
+
+        <div class="box">
+            <p>This is a paragraph inside a div. Here is a 
+                <span class="highlight">span element</span> inside the text.
+            </p>
+        </div>
+
+        <div class="box">
+            <p>Another div box. The 
+                <span class="highlight">span</span> does not cause a line break.
+            </p>
+        </div>
+    </div>
+
+</body>
+</html>
