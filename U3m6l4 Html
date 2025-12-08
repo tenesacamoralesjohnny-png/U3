@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>U3M6L4</title>
+    <link rel="stylesheet" href="U3M6L4.css" />
+</head>
+<body>
+    <h1>Lesson 4: Working With Figures</h1>
+
+    <figure>
+        <img src="https://via.placeholder.com/300" alt="Sample Image" />
+        <figcaption>This is a sample figure caption styled with CSS.</figcaption>
+    </figure>
+
+</body>
+</html>
+
