@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Unit 3 – Web Design Projects</title>
+    <meta name="description" content="Unit 3 index page linking all module assignments">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+            background-color: #f7f7f7;
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        h2 {
+            margin-top: 40px;
+            color: #005a9c;
+            border-bottom: 2px solid #ccc;
+            padding-bottom: 5px;
+        }
+        ul {
+            list-style-type: square;
+            margin-left: 30px;
+        }
+        a {
+            color: #005a9c;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .module {
+            background-color: #ffffff;
+            padding: 15px;
+            margin-top: 20px;
+            border-radius: 6px;
+            box-shadow: 0 0 5px rgba(0,0,0,0.1);
+        }
+        footer {
+            margin-top: 50px;
+            text-align: center;
+            font-size: 0.9em;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Unit 3 – Web Design</h1>
+    <p>This page links to all Module assignments in my Unit 3 folder.</p>
+
+    <div class="module">
+        <h2>Module 6</h2>
+        <ul>
+            <li><a href="Module6/U3M6L4.html">Lesson 4 – Figure and Figcaption</a></li>
+            <li><a href="Module6/index.html">Module 6 Index (if required)</a></li>
+        </ul>
+    </div>
+
+    <div class="module">
+        <h2>Module 7</h2>
+        <ul>
+            <li><a href="Module7/imageGallery.html">Image Gallery</a></li>
+            <li><a href="Module7/index.html">Module 7 Index (if required)</a></li>
+        </ul>
+    </div>
+
+    <div class="module">
+        <h2>Module 8</h2>
+        <ul>
+            <li><a href="Module8/table.html">Table Assignment</a></li>
+            <li><a href="Module8/index.html">Module 8 Index (if required)</a></li>
+        </ul>
+    </div>
+
+    <!-- Add more modules below as needed -->
+
+    <footer>
+        <p>&copy; 2025 – Unit 3 Student Work</p>
+    </footer>
+
+</body>
+</html>
