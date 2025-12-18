@@ -1,21 +1,83 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="UTF-8">
+<title>Color Formats</title>
 
-  <title>A Basic HTML5 Template</title>
-  <meta name="description" content="A simple HTML5 Template for new projects.">
-  <meta name="author" content="SitePoint">
+<style>
+  /* Fade using RGBA (step .1) */
+  .fade01 { color: rgba(255, 102, 26, 1); }
+  .fade02 { color: rgba(255, 102, 26, .9); }
+  .fade03 { color: rgba(255, 102, 26, .8); }
+  .fade04 { color: rgba(255, 102, 26, .7); }
+  .fade05 { color: rgba(255, 102, 26, .6); }
+  .fade06 { color: rgba(255, 102, 26, .5); }
+  .fade07 { color: rgba(255, 102, 26, .4); }
+  .fade08 { color: rgba(255, 102, 26, .3); }
+  .fade09 { color: rgba(255, 102, 26, .2); }
+  .fade10 { color: rgba(255, 102, 26, .1); }
 
-  <meta property="og:title" content="A Basic HTML5 Template">
-  <meta property="og:type" content="website">
-  <meta property="og:url" content="https://www.sitepoint.com/a-basic-html5-template/">
-  <meta property="og:description" content="A simple HTML5 Template for new projects.">
-  <meta property="og:image" content="image.png">
+  /* HSL white to black (10% steps) */
+  .hsl100 { color: hsl(0, 0%, 100%); }
+  .hsl90  { color: hsl(0, 0%, 90%); }
+  .hsl80  { color: hsl(0, 0%, 80%); }
+  .hsl70  { color: hsl(0, 0%, 70%); }
+  .hsl60  { color: hsl(0, 0%, 60%); }
+  .hsl50  { color: hsl(0, 0%, 50%); }
+  .hsl40  { color: hsl(0, 0%, 40%); }
+  .hsl30  { color: hsl(0, 0%, 30%); }
+  .hsl20  { color: hsl(0, 0%, 20%); }
+  .hsl10  { color: hsl(0, 0%, 10%); }
+  .hsl0   { color: hsl(0, 0%, 0%); }
+</style>
 </head>
 
 <body>
-  <!-- your content here... -->
- Hello World
+
+<h1 style="color: rgb(255,102,26);">
+RGB 100%,40%,10%
+</h1>
+
+<p style="color: rgba(255,102,26,.5);">
+RGBA 100%,40%,10%,.5
+</p>
+
+<h1 style="color: hsl(370,100%,50%);">
+HSL 370,100%,50%
+</h1>
+
+<p style="color: hsla(370,100%,50%,.5);">
+HSLA 370,100%,50%,.5
+</p>
+
+<h1>RGBA Fade to transparent by step .1</h1>
+<p>
+<span class="fade01">Going… </span>
+<span class="fade02">Going… </span>
+<span class="fade03">Going… </span>
+<span class="fade04">Going… </span>
+<span class="fade05">Going… </span>
+<span class="fade06">Going… </span>
+<span class="fade07">Going… </span>
+<span class="fade08">Going… </span>
+<span class="fade09">Going… </span>
+<span class="fade10">Going…</span>
+</p>
+
+<h1>HSL Fade white to black by step 10%</h1>
+<p>
+<span class="hsl100">White Going… </span>
+<span class="hsl90">White Going… </span>
+<span class="hsl80">White Going… </span>
+<span class="hsl70">White Going… </span>
+<span class="hsl60">White Going… </span>
+<span class="hsl50">White Going… </span>
+<span class="hsl40">White Going… </span>
+<span class="hsl30">White Going… </span>
+<span class="hsl20">White Going… </span>
+<span class="hsl10">White Going… </span>
+<span class="hsl0">White Gone…</span>
+</p>
+
+</body>
 </html>
