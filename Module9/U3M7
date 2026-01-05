@@ -1,67 +1,16 @@
 <!DOCTYPE html>
+
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Module 7 – Image Gallery</title>
+	<head>
+		<meta charset="utf-8">
+		<title>images</title>
+	</head>
+	
+	<body>
+		<image src="image1.jfif" width="120" height="95">
+		<image src="image2.jfif" width="120" height="95">
+		<image src="image3.jfif" width="120" height="95">
+		<image src="image4.jfif" width="120" height="95">
+		<image src="image5.jfif" width="120" height="95">
+	</body>"
 
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            text-align: center;
-            padding: 20px;
-        }
-
-        img {
-            width: 350px;
-            border-radius: 10px;
-            margin-bottom: 10px;
-        }
-
-        figure {
-            margin-bottom: 30px;
-        }
-    </style>
-</head>
-
-<body>
-
-    <h1>Module 7 – Image Gallery</h1>
-
-    <figure>
-        <a href="image1.jpg" target="_blank">
-            <img src="image1.jpg" alt="Image 1">
-        </a>
-        <figcaption>Image 1</figcaption>
-    </figure>
-
-    <figure>
-        <a href="image2.jpg" target="_blank">
-            <img src="image2.jpg" alt="Image 2">
-        </a>
-        <figcaption>Image 2</figcaption>
-    </figure>
-
-    <figure>
-        <a href="image3.jpg" target="_blank">
-            <img src="image3.jpg" alt="Image 3">
-        </a>
-        <figcaption>Image 3</figcaption>
-    </figure>
-
-    <figure>
-        <a href="image4.jpg" target="_blank">
-            <img src="image4.jpg" alt="Image 4">
-        </a>
-        <figcaption>Image 4</figcaption>
-    </figure>
-
-    <figure>
-        <a href="image5.jpg" target="_blank">
-            <img src="image5.jpg" alt="Image 5">
-        </a>
-        <figcaption>Image 5</figcaption>
-    </figure>
-
-</body>
-</html>
