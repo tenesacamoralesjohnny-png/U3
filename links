@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Links</title>
+	</head>
+	
+	<body>
+		<h1>Moudle 9</h1>
+		<nav>
+			<a href="index.html>HOME</a><br>
+			<a href="malik.html">MALIK</a><br>
+			<a href="jhnny.html">JHNNY</a><br>
+		</nav>
+	</body>
+</html>
