@@ -1,10 +1,9 @@
-.welcome{
-	color: rgb(298, 108, 8)
- 
-  .hello{
-	color: olive;
+.hello{
+	color: red;
 }
 
-.world{
-	color: rgb(29, 98, 109)
+.welcome{
+	color: blue;
 
+.world{
+	color: green;
