@@ -1,0 +1,14 @@
+<!DOCTYPE>
+<html>	
+	<head>
+		<meta charset="utf-8">
+		<title>Colors</title>
+		<link rel="stylesheet" href="style12.css">
+	</head>
+	
+	<body>
+		<p class="hello">highschool</p>
+		<h1 class="welcome">bye</h1>
+		<h2 class="world">hi</h2>
+	</body>
+</html>
