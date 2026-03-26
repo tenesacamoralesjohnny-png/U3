@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>CSS Box Model</title>
+		
+		<style>
+		
+		body{
+			font-family: Arial, sans-serif;
+		}
+		
+		/* Section styling */
+		.section{
+			margin:40px;
+		}
+		
+		/* Image styling */
+		img{
+			width:120px;
+			height: 120px;
+			object-fit:cover;
+			margin:10px;
+			border-radius:8px;
+		}
+		
+		/* Relative images */
+		.relative-container img{
+			position:relative;
+		}
+		
+		/* Absolute container */
+		.absolute-container{
+			position:relative;
+			height:600px;
+			border:2px solid #aaa;
+		}
+		
+		/* Absolute images */
+		.absolute-container img{
+			position:absolute;
+		}
+		</style>
+	</head>
+	
+	<body>
+	
+		<h1></h1>
+		
+		<!-- RELATIVE IMAGES -->
+		<div class="section">
+		<h2></h2>
+		
+		<div class="relative-container">
+		<img src="4.png" style="top:5px; left:5px;">
+		<img src="1.png" style="top:10px; left:10px;">
+		<img src="2.png" style="top:15px; left:15px;">
+		<img src="images1.png" style="top:20px; left:20px;">
+		<img src="imaging2.png" style="top:25px; left:25px;">
+		<img src="12.png" style="top:30px; left:30px;">
+		<img src="13.png" style="top:35px; left:35px;">
+		<img src="14.png" style="top:40px; left:40px;">
+		<img src="15.png" style="top:45px; left:45px;">
+		<img src="IMAGE.png" style="top:50px; left:50px;">
+		</div>
+		</div>
+		
+		<!-- ABSOLUTE IMAGES -->
+		<div class="section">
+		<h2></h2>
+		
+		<div class="absolute-container">
+		<img src="21.png" style="top:0; left:0;">
+		<img src="31.png" style="top:0; left:150px;">
+		<img src="51.png" style="top:0; left:300px;">
+		<img src="123.png" style="top:150px; left:0;">
+		<img src="213.png" style="top:150px; left:150px;">
+		<img src="231.png" style="top:150px; left:300px;">
+		<img src="514.png" style="top:300px; left:0;">
+		<img src="1234.png" style="top:300px; left:150px;">
+		<img src="09.png" style="top:300px; left:300px;">
+		<img src="098.png" style="top:450px; left:150px;">
+		</div>
+	</body>
+</html>		
